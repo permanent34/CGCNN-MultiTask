@@ -1,0 +1,10 @@
+# Python 3.10.x is required for the verified environment.
+# The CUDA 12.8 wheel is for NVIDIA GPUs such as the RTX 5060 used here.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.0+cu128
+numpy==2.2.5
+pandas==2.3.3
+pymatgen==2025.10.7
+scikit-learn==1.7.1
+matplotlib==3.10.9
+tqdm==4.70.0

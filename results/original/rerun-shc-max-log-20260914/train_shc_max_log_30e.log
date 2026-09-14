@@ -1,0 +1,256 @@
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 2 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! + + + is an invalid formula!
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '3-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 12 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '2-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 1 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '1-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 3 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 6 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '4-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! + + + + + is an invalid formula!
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! + + + is an invalid formula!
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 2 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 12 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '3-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 1 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! + + is an invalid formula!
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 3 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.54-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 6 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '2-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Incorrect stoichiometry:
+  CIF={'Y': 26.0, 'Cd': 12.0, 'Pd': 2.0}
+  PMG={'Y': 20.0, 'Cd': 6.0, 'Pd': 2.0}
+  ratios={'Pd': 1.0, 'Cd': 0.5, 'Y': 0.7692307692307693}
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '1-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 14 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! + + + + is an invalid formula!
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 5 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Incorrect stoichiometry:
+  CIF={'Cd': 32.0, 'Cu': 8.0}
+  PMG={'Cd': 20.0, 'Cu': 8.0}
+  ratios={'Cu': 1.0, 'Cd': 0.625}
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '4-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 11 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 7 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 10 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.32-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.31-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 16 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.41-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Incorrect stoichiometry:
+  CIF={'Nb': 6.0, 'Cl': 22.0}
+  PMG={'Nb': 6.0, 'Cl': 16.0}
+  ratios={'Cl': 0.7272727272727273, 'Nb': 1.0}
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '1.12-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.333-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.66-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '1.03-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 20 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Missing elements Ta from PMG structure composition
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\io\cif.py:1314: UserWarning: Cannot determine chemical composition from CIF! could not convert string to float: '0.17-'
+  if struct := self._get_structure(data, primitive, symmetrized, check_occu=check_occu):
+Epoch: [0][0/28]	Time 10.199 (10.199)	Data 9.509 (9.509)	Loss 1.3673 (1.3673)	MAE 0.747 (0.747)
+Epoch: [0][10/28]	Time 8.576 (8.960)	Data 8.342 (8.710)	Loss 1.9477 (1.7307)	MAE 0.443 (0.676)
+Epoch: [0][20/28]	Time 8.878 (8.961)	Data 8.682 (8.732)	Loss 0.5174 (1.2481)	MAE 0.331 (0.548)
+Test: [0/4]	Time 9.198 (9.198)	Loss 0.7919 (0.7919)	MAE 0.400 (0.400)
+ * MAE 0.387
+Epoch: [1][0/28]	Time 0.233 (0.233)	Data 0.023 (0.023)	Loss 0.7104 (0.7104)	MAE 0.381 (0.381)
+Epoch: [1][10/28]	Time 0.108 (0.131)	Data 0.013 (0.014)	Loss 0.5143 (0.5586)	MAE 0.385 (0.370)
+Epoch: [1][20/28]	Time 0.100 (0.116)	Data 0.011 (0.013)	Loss 0.4787 (0.6934)	MAE 0.365 (0.362)
+Test: [0/4]	Time 0.042 (0.042)	Loss 0.7393 (0.7393)	MAE 0.375 (0.375)
+ * MAE 0.329
+Epoch: [2][0/28]	Time 0.111 (0.111)	Data 0.022 (0.022)	Loss 0.4077 (0.4077)	MAE 0.326 (0.326)
+Epoch: [2][10/28]	Time 0.097 (0.100)	Data 0.010 (0.013)	Loss 0.6351 (0.5889)	MAE 0.365 (0.340)
+Epoch: [2][20/28]	Time 0.099 (0.100)	Data 0.012 (0.013)	Loss 0.5474 (0.6393)	MAE 0.341 (0.342)
+Test: [0/4]	Time 0.041 (0.041)	Loss 0.5944 (0.5944)	MAE 0.331 (0.331)
+ * MAE 0.326
+Epoch: [3][0/28]	Time 0.109 (0.109)	Data 0.021 (0.021)	Loss 0.3120 (0.3120)	MAE 0.289 (0.289)
+Epoch: [3][10/28]	Time 0.096 (0.099)	Data 0.012 (0.013)	Loss 0.6301 (0.6393)	MAE 0.372 (0.335)
+Epoch: [3][20/28]	Time 0.103 (0.099)	Data 0.014 (0.013)	Loss 0.3905 (0.5966)	MAE 0.308 (0.330)
+Test: [0/4]	Time 0.043 (0.043)	Loss 0.5397 (0.5397)	MAE 0.343 (0.343)
+ * MAE 0.349
+Epoch: [4][0/28]	Time 0.108 (0.108)	Data 0.021 (0.021)	Loss 0.4381 (0.4381)	MAE 0.324 (0.324)
+Epoch: [4][10/28]	Time 0.109 (0.109)	Data 0.011 (0.014)	Loss 0.4030 (0.4368)	MAE 0.304 (0.320)
+Epoch: [4][20/28]	Time 0.100 (0.106)	Data 0.011 (0.013)	Loss 0.4615 (0.4976)	MAE 0.318 (0.321)
+Test: [0/4]	Time 0.039 (0.039)	Loss 0.4636 (0.4636)	MAE 0.325 (0.325)
+ * MAE 0.339
+Epoch: [5][0/28]	Time 0.098 (0.098)	Data 0.017 (0.017)	Loss 0.4006 (0.4006)	MAE 0.318 (0.318)
+Epoch: [5][10/28]	Time 0.101 (0.101)	Data 0.012 (0.013)	Loss 0.4962 (0.6185)	MAE 0.331 (0.326)
+Epoch: [5][20/28]	Time 0.099 (0.100)	Data 0.012 (0.013)	Loss 0.4908 (0.5807)	MAE 0.327 (0.327)
+Test: [0/4]	Time 0.039 (0.039)	Loss 0.5834 (0.5834)	MAE 0.357 (0.357)
+ * MAE 0.366
+Epoch: [6][0/28]	Time 0.110 (0.110)	Data 0.022 (0.022)	Loss 0.5096 (0.5096)	MAE 0.337 (0.337)
+Epoch: [6][10/28]	Time 0.101 (0.105)	Data 0.011 (0.014)	Loss 0.4904 (0.5223)	MAE 0.315 (0.315)
+Epoch: [6][20/28]	Time 0.100 (0.102)	Data 0.012 (0.013)	Loss 0.6142 (0.4607)	MAE 0.326 (0.309)
+Test: [0/4]	Time 0.042 (0.042)	Loss 0.7531 (0.7531)	MAE 0.427 (0.427)
+ * MAE 0.423
+Epoch: [7][0/28]	Time 0.117 (0.117)	Data 0.025 (0.025)	Loss 0.4862 (0.4862)	MAE 0.366 (0.366)
+Epoch: [7][10/28]	Time 0.104 (0.101)	Data 0.014 (0.014)	Loss 0.3555 (0.5490)	MAE 0.316 (0.334)
+Epoch: [7][20/28]	Time 0.102 (0.102)	Data 0.012 (0.014)	Loss 0.4367 (0.5059)	MAE 0.288 (0.332)
+Test: [0/4]	Time 0.043 (0.043)	Loss 0.4581 (0.4581)	MAE 0.338 (0.338)
+ * MAE 0.354
+Epoch: [8][0/28]	Time 0.101 (0.101)	Data 0.017 (0.017)	Loss 0.5249 (0.5249)	MAE 0.344 (0.344)
+Epoch: [8][10/28]	Time 0.096 (0.103)	Data 0.011 (0.013)	Loss 0.5642 (0.5999)	MAE 0.320 (0.325)
+Epoch: [8][20/28]	Time 0.097 (0.103)	Data 0.010 (0.013)	Loss 0.3991 (0.5621)	MAE 0.322 (0.321)
+Test: [0/4]	Time 0.041 (0.041)	Loss 0.3829 (0.3829)	MAE 0.289 (0.289)
+ * MAE 0.319
+Epoch: [9][0/28]	Time 0.117 (0.117)	Data 0.027 (0.027)	Loss 0.6111 (0.6111)	MAE 0.344 (0.344)
+Epoch: [9][10/28]	Time 0.101 (0.107)	Data 0.010 (0.014)	Loss 0.3329 (0.4223)	MAE 0.278 (0.312)
+Epoch: [9][20/28]	Time 0.096 (0.104)	Data 0.013 (0.013)	Loss 1.2219 (0.4755)	MAE 0.327 (0.305)
+Test: [0/4]	Time 0.041 (0.041)	Loss 0.5838 (0.5838)	MAE 0.350 (0.350)
+ * MAE 0.338
+Epoch: [10][0/28]	Time 0.097 (0.097)	Data 0.017 (0.017)	Loss 0.3156 (0.3156)	MAE 0.271 (0.271)
+Epoch: [10][10/28]	Time 0.097 (0.098)	Data 0.013 (0.013)	Loss 0.3355 (0.4632)	MAE 0.301 (0.306)
+Epoch: [10][20/28]	Time 0.106 (0.098)	Data 0.013 (0.012)	Loss 0.3369 (0.4613)	MAE 0.277 (0.301)
+Test: [0/4]	Time 0.038 (0.038)	Loss 0.2806 (0.2806)	MAE 0.267 (0.267)
+ * MAE 0.333
+Epoch: [11][0/28]	Time 0.106 (0.106)	Data 0.019 (0.019)	Loss 0.5259 (0.5259)	MAE 0.332 (0.332)
+Epoch: [11][10/28]	Time 0.133 (0.104)	Data 0.013 (0.013)	Loss 0.5375 (0.4462)	MAE 0.344 (0.301)
+Epoch: [11][20/28]	Time 0.100 (0.102)	Data 0.014 (0.012)	Loss 0.4516 (0.4173)	MAE 0.308 (0.300)
+Test: [0/4]	Time 0.042 (0.042)	Loss 0.5351 (0.5351)	MAE 0.342 (0.342)
+ * MAE 0.350
+Epoch: [12][0/28]	Time 0.287 (0.287)	Data 0.206 (0.206)	Loss 0.4549 (0.4549)	MAE 0.324 (0.324)
+Epoch: [12][10/28]	Time 0.103 (0.117)	Data 0.011 (0.029)	Loss 0.5781 (0.5839)	MAE 0.393 (0.319)
+Epoch: [12][20/28]	Time 0.093 (0.110)	Data 0.013 (0.021)	Loss 1.2199 (0.5503)	MAE 0.320 (0.317)
+Test: [0/4]	Time 0.045 (0.045)	Loss 0.8359 (0.8359)	MAE 0.413 (0.413)
+ * MAE 0.345
+Epoch: [13][0/28]	Time 0.118 (0.118)	Data 0.021 (0.021)	Loss 0.3848 (0.3848)	MAE 0.309 (0.309)
+Epoch: [13][10/28]	Time 0.100 (0.102)	Data 0.015 (0.014)	Loss 0.2992 (0.4576)	MAE 0.277 (0.297)
+Epoch: [13][20/28]	Time 0.101 (0.101)	Data 0.013 (0.013)	Loss 0.3408 (0.4822)	MAE 0.287 (0.300)
+Test: [0/4]	Time 0.037 (0.037)	Loss 0.6196 (0.6196)	MAE 0.349 (0.349)
+ * MAE 0.343
+Epoch: [14][0/28]	Time 0.104 (0.104)	Data 0.021 (0.021)	Loss 0.4437 (0.4437)	MAE 0.319 (0.319)
+Epoch: [14][10/28]	Time 0.095 (0.100)	Data 0.010 (0.013)	Loss 0.5485 (0.4981)	MAE 0.327 (0.307)
+Epoch: [14][20/28]	Time 0.101 (0.099)	Data 0.014 (0.013)	Loss 0.3920 (0.4698)	MAE 0.301 (0.303)
+Test: [0/4]	Time 0.046 (0.046)	Loss 0.4553 (0.4553)	MAE 0.310 (0.310)
+ * MAE 0.325
+Epoch: [15][0/28]	Time 0.110 (0.110)	Data 0.020 (0.020)	Loss 0.4117 (0.4117)	MAE 0.287 (0.287)
+Epoch: [15][10/28]	Time 0.100 (0.100)	Data 0.012 (0.013)	Loss 0.4324 (0.4817)	MAE 0.315 (0.303)
+Epoch: [15][20/28]	Time 0.104 (0.099)	Data 0.011 (0.012)	Loss 0.3549 (0.4517)	MAE 0.295 (0.300)
+Test: [0/4]	Time 0.036 (0.036)	Loss 0.4468 (0.4468)	MAE 0.299 (0.299)
+ * MAE 0.312
+Epoch: [16][0/28]	Time 0.117 (0.117)	Data 0.023 (0.023)	Loss 0.3747 (0.3747)	MAE 0.291 (0.291)
+Epoch: [16][10/28]	Time 0.101 (0.102)	Data 0.012 (0.014)	Loss 0.2976 (0.4199)	MAE 0.267 (0.290)
+Epoch: [16][20/28]	Time 0.093 (0.100)	Data 0.010 (0.013)	Loss 0.5996 (0.4156)	MAE 0.321 (0.288)
+Test: [0/4]	Time 0.044 (0.044)	Loss 0.6057 (0.6057)	MAE 0.315 (0.315)
+ * MAE 0.317
+Epoch: [17][0/28]	Time 0.104 (0.104)	Data 0.020 (0.020)	Loss 0.2777 (0.2777)	MAE 0.250 (0.250)
+Epoch: [17][10/28]	Time 0.102 (0.099)	Data 0.014 (0.013)	Loss 0.3598 (0.4114)	MAE 0.296 (0.294)
+Epoch: [17][20/28]	Time 0.109 (0.105)	Data 0.012 (0.013)	Loss 0.7112 (0.4404)	MAE 0.321 (0.294)
+Test: [0/4]	Time 0.038 (0.038)	Loss 0.5318 (0.5318)	MAE 0.306 (0.306)
+ * MAE 0.318
+Epoch: [18][0/28]	Time 0.100 (0.100)	Data 0.019 (0.019)	Loss 0.5291 (0.5291)	MAE 0.326 (0.326)
+Epoch: [18][10/28]	Time 0.098 (0.098)	Data 0.012 (0.012)	Loss 0.4067 (0.4482)	MAE 0.321 (0.303)
+Epoch: [18][20/28]	Time 0.103 (0.098)	Data 0.011 (0.012)	Loss 0.3100 (0.4100)	MAE 0.284 (0.299)
+Test: [0/4]	Time 0.036 (0.036)	Loss 0.3917 (0.3917)	MAE 0.300 (0.300)
+ * MAE 0.336
+Epoch: [19][0/28]	Time 0.105 (0.105)	Data 0.020 (0.020)	Loss 0.2891 (0.2891)	MAE 0.278 (0.278)
+Epoch: [19][10/28]	Time 0.098 (0.099)	Data 0.012 (0.013)	Loss 0.4532 (0.3760)	MAE 0.316 (0.286)
+Epoch: [19][20/28]	Time 0.096 (0.099)	Data 0.013 (0.013)	Loss 0.3807 (0.4236)	MAE 0.289 (0.295)
+Test: [0/4]	Time 0.041 (0.041)	Loss 0.4712 (0.4712)	MAE 0.337 (0.337)
+ * MAE 0.350
+Epoch: [20][0/28]	Time 0.110 (0.110)	Data 0.022 (0.022)	Loss 0.3490 (0.3490)	MAE 0.297 (0.297)
+Epoch: [20][10/28]	Time 0.093 (0.102)	Data 0.012 (0.014)	Loss 0.3198 (0.3838)	MAE 0.271 (0.297)
+Epoch: [20][20/28]	Time 0.095 (0.101)	Data 0.012 (0.013)	Loss 0.4184 (0.4338)	MAE 0.328 (0.301)
+Test: [0/4]	Time 0.043 (0.043)	Loss 0.6997 (0.6997)	MAE 0.363 (0.363)
+ * MAE 0.366
+Epoch: [21][0/28]	Time 0.106 (0.106)	Data 0.020 (0.020)	Loss 0.4258 (0.4258)	MAE 0.300 (0.300)
+Epoch: [21][10/28]	Time 0.105 (0.101)	Data 0.013 (0.013)	Loss 0.6336 (0.6878)	MAE 0.397 (0.356)
+Epoch: [21][20/28]	Time 0.098 (0.099)	Data 0.012 (0.012)	Loss 1.0745 (0.6189)	MAE 0.307 (0.349)
+Test: [0/4]	Time 0.040 (0.040)	Loss 0.6919 (0.6919)	MAE 0.381 (0.381)
+ * MAE 0.366
+Epoch: [22][0/28]	Time 0.103 (0.103)	Data 0.019 (0.019)	Loss 0.3318 (0.3318)	MAE 0.303 (0.303)
+Epoch: [22][10/28]	Time 0.102 (0.101)	Data 0.010 (0.012)	Loss 0.3875 (0.4129)	MAE 0.305 (0.294)
+Epoch: [22][20/28]	Time 0.105 (0.101)	Data 0.015 (0.013)	Loss 0.4333 (0.4234)	MAE 0.305 (0.301)
+Test: [0/4]	Time 0.039 (0.039)	Loss 0.6489 (0.6489)	MAE 0.347 (0.347)
+ * MAE 0.315
+Epoch: [23][0/28]	Time 0.108 (0.108)	Data 0.023 (0.023)	Loss 0.1988 (0.1988)	MAE 0.246 (0.246)
+Epoch: [23][10/28]	Time 0.098 (0.099)	Data 0.013 (0.013)	Loss 0.3320 (0.3733)	MAE 0.311 (0.290)
+Epoch: [23][20/28]	Time 0.097 (0.100)	Data 0.012 (0.013)	Loss 0.4398 (0.4355)	MAE 0.293 (0.301)
+Test: [0/4]	Time 0.038 (0.038)	Loss 0.5680 (0.5680)	MAE 0.345 (0.345)
+ * MAE 0.331
+Epoch: [24][0/28]	Time 0.113 (0.113)	Data 0.028 (0.028)	Loss 0.3741 (0.3741)	MAE 0.312 (0.312)
+Epoch: [24][10/28]	Time 0.100 (0.103)	Data 0.013 (0.013)	Loss 0.4042 (0.4130)	MAE 0.291 (0.291)
+Epoch: [24][20/28]	Time 0.098 (0.102)	Data 0.012 (0.013)	Loss 1.1725 (0.4276)	MAE 0.329 (0.294)
+Test: [0/4]	Time 0.043 (0.043)	Loss 0.3476 (0.3476)	MAE 0.294 (0.294)
+ * MAE 0.322
+Epoch: [25][0/28]	Time 0.108 (0.108)	Data 0.020 (0.020)	Loss 0.3805 (0.3805)	MAE 0.280 (0.280)
+Epoch: [25][10/28]	Time 0.103 (0.101)	Data 0.014 (0.014)	Loss 0.3439 (0.3862)	MAE 0.279 (0.296)
+Epoch: [25][20/28]	Time 0.100 (0.101)	Data 0.015 (0.013)	Loss 0.3652 (0.4376)	MAE 0.287 (0.301)
+Test: [0/4]	Time 0.039 (0.039)	Loss 0.5448 (0.5448)	MAE 0.338 (0.338)
+ * MAE 0.345
+Epoch: [26][0/28]	Time 0.119 (0.119)	Data 0.022 (0.022)	Loss 0.3823 (0.3823)	MAE 0.294 (0.294)
+Epoch: [26][10/28]	Time 0.099 (0.101)	Data 0.013 (0.013)	Loss 0.4001 (0.3588)	MAE 0.300 (0.289)
+Epoch: [26][20/28]	Time 0.097 (0.099)	Data 0.012 (0.013)	Loss 0.3468 (0.3950)	MAE 0.287 (0.292)
+Test: [0/4]	Time 0.037 (0.037)	Loss 0.4849 (0.4849)	MAE 0.316 (0.316)
+ * MAE 0.315
+Epoch: [27][0/28]	Time 0.107 (0.107)	Data 0.024 (0.024)	Loss 0.3310 (0.3310)	MAE 0.287 (0.287)
+Epoch: [27][10/28]	Time 0.097 (0.103)	Data 0.013 (0.014)	Loss 0.3355 (0.3723)	MAE 0.282 (0.293)
+Epoch: [27][20/28]	Time 0.105 (0.101)	Data 0.014 (0.013)	Loss 0.6541 (0.4195)	MAE 0.319 (0.291)
+Test: [0/4]	Time 0.042 (0.042)	Loss 0.5213 (0.5213)	MAE 0.317 (0.317)
+ * MAE 0.320
+Epoch: [28][0/28]	Time 0.106 (0.106)	Data 0.022 (0.022)	Loss 0.3182 (0.3182)	MAE 0.257 (0.257)
+Epoch: [28][10/28]	Time 0.102 (0.100)	Data 0.016 (0.014)	Loss 0.3222 (0.3882)	MAE 0.292 (0.277)
+Epoch: [28][20/28]	Time 0.105 (0.098)	Data 0.014 (0.013)	Loss 0.2957 (0.3483)	MAE 0.264 (0.275)
+Test: [0/4]	Time 0.043 (0.043)	Loss 0.5069 (0.5069)	MAE 0.353 (0.353)
+ * MAE 0.361
+Epoch: [29][0/28]	Time 0.113 (0.113)	Data 0.021 (0.021)	Loss 0.2788 (0.2788)	MAE 0.266 (0.266)
+Epoch: [29][10/28]	Time 0.092 (0.103)	Data 0.011 (0.013)	Loss 0.3089 (0.3725)	MAE 0.274 (0.279)
+Epoch: [29][20/28]	Time 0.100 (0.101)	Data 0.011 (0.013)	Loss 0.4934 (0.3819)	MAE 0.317 (0.284)
+Test: [0/4]	Time 0.032 (0.032)	Loss 0.4495 (0.4495)	MAE 0.297 (0.297)
+ * MAE 0.315
+---------Evaluate Model on Test Set---------------
+Test: [0/4]	Time 8.851 (8.851)	Loss 0.6198 (0.6198)	MAE 0.347 (0.347)
+ ** MAE 0.319

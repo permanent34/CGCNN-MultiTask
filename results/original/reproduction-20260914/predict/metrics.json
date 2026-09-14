@@ -1,0 +1,17 @@
+{
+  "dataset": "sample-regression-prediction",
+  "source_csv": "D:\\VScode_project\\CGCNN\\cgcnn-master\\cgcnn-master\\results\\original\\reproduction-20260914\\predict\\test_results.csv",
+  "source_sha256": "7eac864c640271588d11027ad621fc39a2f6a1eae59679cc04fc02aa560e26d9",
+  "generated_at_utc": "2026-09-14T08:33:39.402597+00:00",
+  "rows": 10,
+  "num_tasks": 1,
+  "mean_task_mae": 2.3892770290374754,
+  "tasks": {
+    "sample_target": {
+      "n": 10,
+      "mae": 2.3892770290374754,
+      "rmse": 2.916667550532518,
+      "r2": -0.031145406100528295
+    }
+  }
+}

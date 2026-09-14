@@ -1,0 +1,17 @@
+{
+  "dataset": "original-single-task",
+  "source_csv": "results\\original\\test_results.csv",
+  "source_sha256": "827ba6b5ccc42b7ae4e950f36dbe3798e28b349c0c0d0bcf4b5ef19f4c89335b",
+  "generated_at_utc": "2026-09-14T08:31:36.598481+00:00",
+  "rows": 866,
+  "num_tasks": 1,
+  "mean_task_mae": 0.311507551433996,
+  "tasks": {
+    "target": {
+      "n": 866,
+      "mae": 0.311507551433996,
+      "rmse": 0.5396549168001037,
+      "r2": 0.41063183019902993
+    }
+  }
+}

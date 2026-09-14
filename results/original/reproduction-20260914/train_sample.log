@@ -1,0 +1,97 @@
+D:\VScode_project\CGCNN\cgcnn-master\cgcnn-master\main.py:120: UserWarning: Dataset has less than 500 data points. Lower accuracy is expected. 
+  warnings.warn('Dataset has less than 500 data points. '
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+Epoch: [0][0/1]	Time 0.738 (0.738)	Data 0.030 (0.030)	Loss 0.8088 (0.8088)	MAE 2.284 (2.284)
+Test: [0/1]	Time 0.005 (0.005)	Loss 2.1745 (2.1745)	MAE 3.755 (3.755)
+ * MAE 3.755
+Epoch: [1][0/1]	Time 0.019 (0.019)	Data 0.000 (0.000)	Loss 1.1213 (1.1213)	MAE 2.794 (2.794)
+Test: [0/1]	Time 0.002 (0.002)	Loss 11.5056 (11.5056)	MAE 9.963 (9.963)
+ * MAE 9.963
+Epoch: [2][0/1]	Time 0.013 (0.013)	Data 0.001 (0.001)	Loss 0.8976 (0.8976)	MAE 2.512 (2.512)
+Test: [0/1]	Time 0.005 (0.005)	Loss 0.7329 (0.7329)	MAE 2.530 (2.530)
+ * MAE 2.530
+Epoch: [3][0/1]	Time 0.013 (0.013)	Data 0.001 (0.001)	Loss 0.1831 (0.1831)	MAE 1.222 (1.222)
+Test: [0/1]	Time 0.003 (0.003)	Loss 0.8732 (0.8732)	MAE 2.544 (2.544)
+ * MAE 2.544
+Epoch: [4][0/1]	Time 0.011 (0.011)	Data 0.000 (0.000)	Loss 0.1926 (0.1926)	MAE 1.303 (1.303)
+Test: [0/1]	Time 0.002 (0.002)	Loss 1.6702 (1.6702)	MAE 2.969 (2.969)
+ * MAE 2.969
+Epoch: [5][0/1]	Time 0.008 (0.008)	Data 0.001 (0.001)	Loss 0.5142 (0.5142)	MAE 2.062 (2.062)
+Test: [0/1]	Time 0.002 (0.002)	Loss 0.8569 (0.8569)	MAE 2.547 (2.547)
+ * MAE 2.547
+Epoch: [6][0/1]	Time 0.008 (0.008)	Data 0.001 (0.001)	Loss 0.1609 (0.1609)	MAE 1.099 (1.099)
+Test: [0/1]	Time 0.004 (0.004)	Loss 0.7510 (0.7510)	MAE 2.545 (2.545)
+ * MAE 2.545
+Epoch: [7][0/1]	Time 0.008 (0.008)	Data 0.000 (0.000)	Loss 0.0855 (0.0855)	MAE 0.767 (0.767)
+Test: [0/1]	Time 0.005 (0.005)	Loss 1.1267 (1.1267)	MAE 2.541 (2.541)
+ * MAE 2.541
+Epoch: [8][0/1]	Time 0.011 (0.011)	Data 0.001 (0.001)	Loss 0.2388 (0.2388)	MAE 1.415 (1.415)
+Test: [0/1]	Time 0.006 (0.006)	Loss 0.7346 (0.7346)	MAE 2.535 (2.535)
+ * MAE 2.535
+Epoch: [9][0/1]	Time 0.010 (0.010)	Data 0.000 (0.000)	Loss 0.0098 (0.0098)	MAE 0.258 (0.258)
+Test: [0/1]	Time 0.003 (0.003)	Loss 0.7020 (0.7020)	MAE 2.526 (2.526)
+ * MAE 2.526
+Epoch: [10][0/1]	Time 0.009 (0.009)	Data 0.001 (0.001)	Loss 0.1569 (0.1569)	MAE 1.178 (1.178)
+Test: [0/1]	Time 0.003 (0.003)	Loss 0.9721 (0.9721)	MAE 2.518 (2.518)
+ * MAE 2.518
+Epoch: [11][0/1]	Time 0.009 (0.009)	Data 0.000 (0.000)	Loss 0.0355 (0.0355)	MAE 0.473 (0.473)
+Test: [0/1]	Time 0.005 (0.005)	Loss 1.1985 (1.1985)	MAE 2.510 (2.510)
+ * MAE 2.510
+Epoch: [12][0/1]	Time 0.008 (0.008)	Data 0.001 (0.001)	Loss 0.0964 (0.0964)	MAE 0.894 (0.894)
+Test: [0/1]	Time 0.003 (0.003)	Loss 0.7831 (0.7831)	MAE 2.503 (2.503)
+ * MAE 2.503
+Epoch: [13][0/1]	Time 0.012 (0.012)	Data 0.001 (0.001)	Loss 0.0414 (0.0414)	MAE 0.551 (0.551)
+Test: [0/1]	Time 0.006 (0.006)	Loss 0.7759 (0.7759)	MAE 2.498 (2.498)
+ * MAE 2.498
+Epoch: [14][0/1]	Time 0.013 (0.013)	Data 0.001 (0.001)	Loss 0.0674 (0.0674)	MAE 0.726 (0.726)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.1962 (1.1962)	MAE 2.495 (2.495)
+ * MAE 2.495
+Epoch: [15][0/1]	Time 0.007 (0.007)	Data 0.000 (0.000)	Loss 0.0329 (0.0329)	MAE 0.486 (0.486)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.3342 (1.3342)	MAE 2.492 (2.492)
+ * MAE 2.492
+Epoch: [16][0/1]	Time 0.008 (0.008)	Data 0.001 (0.001)	Loss 0.0522 (0.0522)	MAE 0.664 (0.664)
+Test: [0/1]	Time 0.003 (0.003)	Loss 0.9755 (0.9755)	MAE 2.489 (2.489)
+ * MAE 2.489
+Epoch: [17][0/1]	Time 0.009 (0.009)	Data 0.001 (0.001)	Loss 0.0126 (0.0126)	MAE 0.317 (0.317)
+Test: [0/1]	Time 0.006 (0.006)	Loss 0.8993 (0.8993)	MAE 2.486 (2.486)
+ * MAE 2.486
+Epoch: [18][0/1]	Time 0.008 (0.008)	Data 0.001 (0.001)	Loss 0.0481 (0.0481)	MAE 0.651 (0.651)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.1867 (1.1867)	MAE 2.483 (2.483)
+ * MAE 2.483
+Epoch: [19][0/1]	Time 0.007 (0.007)	Data 0.001 (0.001)	Loss 0.0045 (0.0045)	MAE 0.171 (0.171)
+Test: [0/1]	Time 0.002 (0.002)	Loss 1.4592 (1.4592)	MAE 2.689 (2.689)
+ * MAE 2.689
+Epoch: [20][0/1]	Time 0.011 (0.011)	Data 0.000 (0.000)	Loss 0.0427 (0.0427)	MAE 0.592 (0.592)
+Test: [0/1]	Time 0.002 (0.002)	Loss 1.2594 (1.2594)	MAE 2.473 (2.473)
+ * MAE 2.473
+Epoch: [21][0/1]	Time 0.014 (0.014)	Data 0.000 (0.000)	Loss 0.0063 (0.0063)	MAE 0.191 (0.191)
+Test: [0/1]	Time 0.004 (0.004)	Loss 1.0134 (1.0134)	MAE 2.468 (2.468)
+ * MAE 2.468
+Epoch: [22][0/1]	Time 0.013 (0.013)	Data 0.000 (0.000)	Loss 0.0248 (0.0248)	MAE 0.453 (0.453)
+Test: [0/1]	Time 0.004 (0.004)	Loss 1.0552 (1.0552)	MAE 2.461 (2.461)
+ * MAE 2.461
+Epoch: [23][0/1]	Time 0.013 (0.013)	Data 0.001 (0.001)	Loss 0.0146 (0.0146)	MAE 0.344 (0.344)
+Test: [0/1]	Time 0.006 (0.006)	Loss 1.3101 (1.3101)	MAE 2.455 (2.455)
+ * MAE 2.455
+Epoch: [24][0/1]	Time 0.007 (0.007)	Data 0.001 (0.001)	Loss 0.0079 (0.0079)	MAE 0.243 (0.243)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.4013 (1.4013)	MAE 2.618 (2.618)
+ * MAE 2.618
+Epoch: [25][0/1]	Time 0.008 (0.008)	Data 0.001 (0.001)	Loss 0.0221 (0.0221)	MAE 0.430 (0.430)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.1906 (1.1906)	MAE 2.442 (2.442)
+ * MAE 2.442
+Epoch: [26][0/1]	Time 0.012 (0.012)	Data 0.001 (0.001)	Loss 0.0025 (0.0025)	MAE 0.134 (0.134)
+Test: [0/1]	Time 0.006 (0.006)	Loss 1.0275 (1.0275)	MAE 2.436 (2.436)
+ * MAE 2.436
+Epoch: [27][0/1]	Time 0.012 (0.012)	Data 0.001 (0.001)	Loss 0.0177 (0.0177)	MAE 0.373 (0.373)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.0859 (1.0859)	MAE 2.431 (2.431)
+ * MAE 2.431
+Epoch: [28][0/1]	Time 0.013 (0.013)	Data 0.001 (0.001)	Loss 0.0064 (0.0064)	MAE 0.209 (0.209)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.2675 (1.2675)	MAE 2.425 (2.425)
+ * MAE 2.425
+Epoch: [29][0/1]	Time 0.010 (0.010)	Data 0.001 (0.001)	Loss 0.0057 (0.0057)	MAE 0.212 (0.212)
+Test: [0/1]	Time 0.003 (0.003)	Loss 1.3091 (1.3091)	MAE 2.479 (2.479)
+ * MAE 2.479
+---------Evaluate Model on Test Set---------------
+Test: [0/1]	Time 0.004 (0.004)	Loss 1.9724 (1.9724)	MAE 3.813 (3.813)
+ ** MAE 3.813

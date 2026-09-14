@@ -1,0 +1,29 @@
+{
+  "dataset": "multitask-3-properties",
+  "source_csv": "results\\multitask\\test_results.csv",
+  "source_sha256": "7650b182e665011f4b21fffb74d41f7e6fdebcef9d75b7f2788b6b9db73a69fe",
+  "generated_at_utc": "2026-09-14T08:31:37.077122+00:00",
+  "rows": 3635,
+  "num_tasks": 3,
+  "mean_task_mae": 0.3271409815491824,
+  "tasks": {
+    "formation_energy_per_atom": {
+      "n": 3635,
+      "mae": 0.10977210758555458,
+      "rmse": 0.15431191507375583,
+      "r2": 0.9805546053830065
+    },
+    "band_gap": {
+      "n": 3635,
+      "mae": 0.42429619563355,
+      "rmse": 0.6970091371174116,
+      "r2": 0.8409278498319276
+    },
+    "efermi": {
+      "n": 3635,
+      "mae": 0.4473546414284428,
+      "rmse": 0.6703123793227519,
+      "r2": 0.943980614355819
+    }
+  }
+}

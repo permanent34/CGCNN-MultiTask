@@ -1,0 +1,25 @@
+{
+  "source_log": "D:\\VScode_project\\CGCNN\\cgcnn-master\\cgcnn-master\\results\\original\\reproduction-20260914\\train_sample.log",
+  "source_sha256": "4d27098e20978ed1de8623c524ebe5b9452e5b8a74cc6c80dec49006d1dfcdf0",
+  "epochs": 30,
+  "best_validation": {
+    "epoch": 28,
+    "train_loss": 0.0064,
+    "train_mae": 0.209,
+    "val_loss": 1.2675,
+    "val_mae": 2.425,
+    "train_loss_complete": true,
+    "val_loss_complete": true
+  },
+  "final_test": {
+    "loss": 1.9724,
+    "loss_complete": true,
+    "mae": 3.813,
+    "mae_exact": true
+  },
+  "notes": {
+    "train_loss": "Reported running average from the last printed batch.",
+    "val_loss": "Only complete when val_loss_complete is true.",
+    "val_mae": "Exact when the * MAE marker was found."
+  }
+}

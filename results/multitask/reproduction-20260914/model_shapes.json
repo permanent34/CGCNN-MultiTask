@@ -1,0 +1,48 @@
+{
+  "dataset": "data/mt-demo",
+  "single_sample": {
+    "atom_fea": [
+      22,
+      92
+    ],
+    "nbr_fea": [
+      22,
+      12,
+      41
+    ],
+    "nbr_fea_idx": [
+      22,
+      12
+    ],
+    "target": [
+      3
+    ]
+  },
+  "batch_of_3": {
+    "atom_fea": [
+      47,
+      92
+    ],
+    "nbr_fea": [
+      47,
+      12,
+      41
+    ],
+    "nbr_fea_idx": [
+      47,
+      12
+    ],
+    "target": [
+      3,
+      3
+    ]
+  },
+  "checkpoint_fc_out_weight": [
+    3,
+    128
+  ],
+  "checkpoint_fc_out_bias": [
+    3
+  ],
+  "checkpoint_num_targets": 3
+}

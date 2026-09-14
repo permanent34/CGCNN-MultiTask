@@ -1,0 +1,17 @@
+{
+  "dataset": "single-task-shc-max-log-30e",
+  "source_csv": "D:\\VScode_project\\CGCNN\\cgcnn-master\\cgcnn-master\\results\\original\\rerun-shc-max-log-20260914\\test_results.csv",
+  "source_sha256": "2676584554a72916ca6363af161101a1ae8ec861a752edfcb8b621b94f577e23",
+  "generated_at_utc": "2026-09-14T08:42:11.807682+00:00",
+  "rows": 866,
+  "num_tasks": 1,
+  "mean_task_mae": 0.31882589258786986,
+  "tasks": {
+    "target": {
+      "n": 866,
+      "mae": 0.31882589258786986,
+      "rmse": 0.5241931599660736,
+      "r2": 0.4439202248944679
+    }
+  }
+}

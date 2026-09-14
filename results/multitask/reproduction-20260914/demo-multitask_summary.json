@@ -1,0 +1,25 @@
+{
+  "source_log": "D:\\VScode_project\\CGCNN\\cgcnn-master\\cgcnn-master\\results\\multitask\\reproduction-20260914\\train_multitask.log",
+  "source_sha256": "00603db4daee4bd5d132612d5ae2f21311dea0efeb9975c800c1936886f45868",
+  "epochs": 30,
+  "best_validation": {
+    "epoch": 8,
+    "train_loss": 0.8328,
+    "train_mae": 0.727,
+    "val_loss": 0.5253,
+    "val_mae": 0.613,
+    "train_loss_complete": true,
+    "val_loss_complete": true
+  },
+  "final_test": {
+    "loss": 0.3557,
+    "loss_complete": true,
+    "mae": 0.568,
+    "mae_exact": true
+  },
+  "notes": {
+    "train_loss": "Reported running average from the last printed batch.",
+    "val_loss": "Only complete when val_loss_complete is true.",
+    "val_mae": "Exact when the * MAE marker was found."
+  }
+}

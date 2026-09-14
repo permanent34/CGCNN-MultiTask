@@ -1,0 +1,8 @@
+D:\Miniconda\miniconda\envs\cgcnn\lib\site-packages\pymatgen\core\structure.py:3109: UserWarning: Issues encountered while parsing CIF: 4 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  struct = parser.parse_structures(primitive=primitive)[0]
+=> loading model params 'D:\VScode_project\CGCNN\cgcnn-master\cgcnn-master\results\original\reproduction-20260914\model_best.pth.tar'
+=> loaded model params 'D:\VScode_project\CGCNN\cgcnn-master\cgcnn-master\results\original\reproduction-20260914\model_best.pth.tar'
+=> loading model 'D:\VScode_project\CGCNN\cgcnn-master\cgcnn-master\results\original\reproduction-20260914\model_best.pth.tar'
+=> loaded model 'D:\VScode_project\CGCNN\cgcnn-master\cgcnn-master\results\original\reproduction-20260914\model_best.pth.tar' (epoch 29, validation 2.4250729084014893)
+Test: [0/1]	Time 0.470 (0.470)	Loss 0.9280 (0.9280)	MAE 2.389 (2.389)
+ ** MAE 2.389

@@ -1,0 +1,29 @@
+{
+  "dataset": "multitask-demo-prediction",
+  "source_csv": "D:\\VScode_project\\CGCNN\\cgcnn-master\\cgcnn-master\\results\\multitask\\reproduction-20260914\\predict\\test_results.csv",
+  "source_sha256": "f6c2cd5ae23a5302465e34ca527c7ae6afa8e8632af2eb02108c98b85a657b6b",
+  "generated_at_utc": "2026-09-14T08:34:46.452591+00:00",
+  "rows": 9,
+  "num_tasks": 3,
+  "mean_task_mae": 0.7075453168816036,
+  "tasks": {
+    "formation_energy_per_atom": {
+      "n": 9,
+      "mae": 0.3947816424899631,
+      "rmse": 0.5504749334727171,
+      "r2": 0.3594598877432069
+    },
+    "band_gap": {
+      "n": 9,
+      "mae": 0.9030777480867174,
+      "rmse": 1.0894885065078876,
+      "r2": 0.18693700488983211
+    },
+    "efermi": {
+      "n": 9,
+      "mae": 0.8247765600681305,
+      "rmse": 1.1278782149438054,
+      "r2": 0.09950652496388612
+    }
+  }
+}

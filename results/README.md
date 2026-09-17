@@ -1,15 +1,15 @@
 # Results
 
-本目录只保存由真实运行生成的测试结果与由这些结果重新计算的指标。
+本目录只保存由真实运行生成的测试结果，以及从这些结果重新计算的指标。
 
-- `original/`：原始单任务 CGCNN 的运行结果。
-- `multitask/`：三任务 CGCNN 的运行结果。
-- `metrics.json` / `metrics.md`：通过 `tools/summarize_results.py` 从测试 CSV 重算的 MAE、RMSE 和 R²。
+## 最新 MP 汇报结果
 
-测试 CSV 不包含表头。多任务文件格式为：
+- `mp_presentation_20260917/single_task_30e/`：MP 形成能单任务，30 轮；
+- `mp_presentation_20260917/multitask_30e/`：MP 形成能、带隙、费米能三任务，30 轮；
+- 测试指标由 `test_results.csv` 重新计算；
+- `metrics.json` 记录源 CSV 的 SHA-256；
+- 训练日志、逐轮指标、预测 CSV 和摘要均保存在对应目录。
 
-```text
-id,target_1,...,target_K,prediction_1,...,prediction_K
-```
+## 历史结果
 
-当前完整逐轮训练日志尚未保存，因此这里暂时不放 loss 曲线。后续重新训练时会保存原始日志，并从日志生成真实曲线。
+`original/` 和 `multitask/` 中的旧结果仍保留用于追溯，但最新组会 PPT、演讲稿和主 README 只采用 `mp_presentation_20260917/` 下的 MP 结果。

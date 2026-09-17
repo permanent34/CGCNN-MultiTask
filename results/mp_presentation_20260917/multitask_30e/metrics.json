@@ -1,0 +1,29 @@
+{
+  "dataset": "mp-multitask-3-properties-30e",
+  "source_csv": "results\\mp_presentation_20260917\\multitask_30e\\test_results.csv",
+  "source_sha256": "f22c49919e1fd5a71bb4682f444681cf89f02d1bf965b8a40817763de0bef409",
+  "generated_at_utc": "2026-09-17T09:44:55.742887+00:00",
+  "rows": 3635,
+  "num_tasks": 3,
+  "mean_task_mae": 0.3275973644472791,
+  "tasks": {
+    "formation_energy_per_atom": {
+      "n": 3635,
+      "mae": 0.10466076259508804,
+      "rmse": 0.1489924879938376,
+      "r2": 0.981872138115967
+    },
+    "band_gap": {
+      "n": 3635,
+      "mae": 0.43082618425617847,
+      "rmse": 0.6884617553558949,
+      "r2": 0.8448053133170458
+    },
+    "efermi": {
+      "n": 3635,
+      "mae": 0.44730514649057085,
+      "rmse": 0.6738645257302015,
+      "r2": 0.9433853208447798
+    }
+  }
+}

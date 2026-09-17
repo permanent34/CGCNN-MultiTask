@@ -47,6 +47,7 @@ def parse_log(path):
     lines = path.read_text(encoding="utf-8-sig", errors="replace").splitlines()
     train_by_epoch = {}
     validation = []
+    pending_validation = None
     final_test = None
     in_final_test = False
 
@@ -81,13 +82,20 @@ def parse_log(path):
             if in_final_test:
                 final_test = item
             else:
-                validation.append(item)
+                # print-freq=1 emits many batch lines. Keep the latest line
+                # and commit one validation record when the exact * MAE line
+                # appears at the end of the epoch.
+                pending_validation = item
             continue
 
         match = VAL_MAE_RE.match(line)
-        if match and not in_final_test and validation:
-            validation[-1]["mae"] = float(match.group("mae"))
-            validation[-1]["mae_exact"] = True
+        if match and not in_final_test:
+            if pending_validation is None:
+                raise SystemExit("Found validation MAE marker without Test line.")
+            pending_validation["mae"] = float(match.group("mae"))
+            pending_validation["mae_exact"] = True
+            validation.append(pending_validation)
+            pending_validation = None
             continue
 
         match = TEST_MAE_RE.match(line)
@@ -153,29 +161,74 @@ def write_csv(path, rows):
 
 def make_figures(prefix, rows):
     epochs = [row["epoch"] for row in rows]
-    fig, ax = plt.subplots(figsize=(8, 5))
-    ax.plot(epochs, [row["train_loss"] for row in rows], label="Train loss (reported average)")
+    plt.rcParams["font.sans-serif"] = ["Microsoft YaHei", "SimHei"]
+    plt.rcParams["axes.unicode_minus"] = False
+    tick_step = max(1, (max(epochs) - min(epochs) + 1) // 6)
+    tick_values = list(range(min(epochs), max(epochs) + 1, tick_step))
+    if tick_values[-1] != max(epochs):
+        tick_values.append(max(epochs))
+
+    fig, ax = plt.subplots(figsize=(10, 5.6))
+    ax.plot(
+        epochs,
+        [row["train_loss"] for row in rows],
+        label="训练 Loss（日志 running average）",
+        color="#2166AC",
+        linewidth=2.8,
+    )
     if all(row["val_loss_complete"] for row in rows):
-        ax.plot(epochs, [row["val_loss"] for row in rows], label="Validation loss")
-    ax.set_xlabel("Epoch")
-    ax.set_ylabel("MSE loss")
-    ax.set_title("Real CGCNN training loss")
+        ax.plot(
+            epochs,
+            [row["val_loss"] for row in rows],
+            label="验证 Loss",
+            color="#D97706",
+            linewidth=2.8,
+        )
+    ax.set_xlabel("Epoch", fontsize=18)
+    ax.set_ylabel("MSE Loss", fontsize=18)
+    ax.set_title("真实训练 Loss", fontsize=24, fontweight="bold", pad=14)
+    ax.set_xticks(tick_values)
+    ax.tick_params(axis="both", labelsize=14)
     ax.grid(alpha=0.25)
-    ax.legend()
+    ax.legend(fontsize=14, frameon=False)
     fig.tight_layout()
-    fig.savefig(prefix.with_name(prefix.name + "_loss.png"), dpi=180)
+    fig.savefig(prefix.with_name(prefix.name + "_loss.png"), dpi=180, facecolor="white")
     plt.close(fig)
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    ax.plot(epochs, [row["train_mae"] for row in rows], label="Train MAE (reported average)")
-    ax.plot(epochs, [row["val_mae"] for row in rows], label="Validation MAE (reported)")
-    ax.set_xlabel("Epoch")
-    ax.set_ylabel("MAE")
-    ax.set_title("Real CGCNN training MAE")
+    fig, ax = plt.subplots(figsize=(10, 5.6))
+    ax.plot(
+        epochs,
+        [row["train_mae"] for row in rows],
+        label="训练 MAE（日志 running average）",
+        color="#2166AC",
+        linewidth=2.8,
+    )
+    ax.plot(
+        epochs,
+        [row["val_mae"] for row in rows],
+        label="验证 MAE（完整结果）",
+        color="#D97706",
+        linewidth=2.8,
+    )
+    best = min(rows, key=lambda row: row["val_mae"])
+    ax.scatter([best["epoch"]], [best["val_mae"]], color="#D97706", s=80, zorder=3)
+    ax.annotate(
+        f"最好验证 MAE {best['val_mae']:.3f}\nEpoch {best['epoch']}",
+        xy=(best["epoch"], best["val_mae"]),
+        xytext=(best["epoch"] + 2, best["val_mae"] + 0.05),
+        fontsize=14,
+        color="#8A4B08",
+        arrowprops={"arrowstyle": "->", "color": "#8A4B08", "lw": 1.5},
+    )
+    ax.set_xlabel("Epoch", fontsize=18)
+    ax.set_ylabel("MAE", fontsize=18)
+    ax.set_title("真实训练与验证 MAE", fontsize=24, fontweight="bold", pad=14)
+    ax.set_xticks(tick_values)
+    ax.tick_params(axis="both", labelsize=14)
     ax.grid(alpha=0.25)
-    ax.legend()
+    ax.legend(fontsize=14, frameon=False)
     fig.tight_layout()
-    fig.savefig(prefix.with_name(prefix.name + "_mae.png"), dpi=180)
+    fig.savefig(prefix.with_name(prefix.name + "_mae.png"), dpi=180, facecolor="white")
     plt.close(fig)
 
 

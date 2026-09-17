@@ -1,0 +1,17 @@
+{
+  "dataset": "mp-single-formation-30e",
+  "source_csv": "results\\mp_presentation_20260917\\single_task_30e\\test_results.csv",
+  "source_sha256": "1aaf85f95c5ef3cfb3992ed1874276ac0e2447b62f1b390ee345a8a6bace3777",
+  "generated_at_utc": "2026-09-17T09:37:08.041560+00:00",
+  "rows": 3635,
+  "num_tasks": 1,
+  "mean_task_mae": 0.07980134828384304,
+  "tasks": {
+    "formation_energy_per_atom": {
+      "n": 3635,
+      "mae": 0.07980134828384304,
+      "rmse": 0.12141096857289412,
+      "r2": 0.9879625724462204
+    }
+  }
+}

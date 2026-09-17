@@ -1,0 +1,9 @@
+# MP CGCNN presentation environment
+python=3.10.20
+torch=2.7.0+cu128
+torch_cuda=12.8
+cuda_available=True
+device_count=1
+gpu0=NVIDIA GeForce RTX 5060 Laptop GPU
+capability=(12, 0)
+NVIDIA GeForce RTX 5060 Laptop GPU, 582.05, 8151 MiB

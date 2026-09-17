@@ -180,43 +180,34 @@ id,property1,property2,property3
 
 多任务中某一行缺少一个性质时，可以留空或写 `nan`。程序使用掩码损失，不把缺失值当作 0。
 
-## 6. 原始 CGCNN 复现
+## 6. MP 单任务复现
 
-原始单任务训练命令：
+单任务实验只使用 Materials Project 数据。结构与标签来自 `data/mt-large` 的同源 MP 记录，单任务视图使用其中的 `formation_energy_per_atom` 列。
+
+训练命令：
 
 ```powershell
-python main.py --epochs 120 --batch-size 256 --train-ratio 0.8 --val-ratio 0.1 --test-ratio 0.1 data/shc-max-log
+python main.py --epochs 30 --batch-size 256 --train-ratio 0.8 --val-ratio 0.1 --test-ratio 0.1 --num-targets 1 data/mp-single-formation
 ```
 
-已保存的 120 轮单任务结果显示：
+实验设置：
+
+- 原始 MP ID 清单：46,744；
+- 成功保留的 MP 结构：36,358；
+- 训练 / 验证 / 测试：29,086 / 3,635 / 3,635；
+- 输出目标：1 个，形成能 per atom，单位 eV/atom；
+- batch size：256；epochs：30；SGD 初始学习率：0.01。
+
+真实测试结果：
 
 | 指标 | 数值 | 来源 |
 |---|---:|---|
-| 最好验证 MAE | 0.2946 | 顶层 `model_best.pth.tar` 元数据 |
-| 测试 MAE | 0.311508 | 866 条真实测试记录重算 |
-| 测试 RMSE | 0.539655 | 866 条真实测试记录重算 |
-| 测试 R² | 0.410632 | 866 条真实测试记录重算 |
+| 最好验证 MAE | 0.0810 | `single_summary.json` |
+| 测试 MAE | 0.079801 | 3,635 条测试记录重算 |
+| 测试 RMSE | 0.121411 | 3,635 条测试记录重算 |
+| 测试 R² | 0.987963 | 3,635 条测试记录重算 |
 
-注意：最好验证 MAE 和最终测试 MAE 不是同一个指标。模型选择使用验证集，最终泛化能力要看测试集。
-
-本次又使用当前代码重新运行了 30 轮，并保存了完整终端日志：
-
-```powershell
-python main.py --epochs 30 --batch-size 256 --train-ratio 0.8 --val-ratio 0.1 --test-ratio 0.1 --print-freq 10 data/shc-max-log
-```
-
-本次 30 轮真实结果：
-
-| 指标 | 数值 | 来源 |
-|---|---:|---|
-| 最好验证 MAE | 0.311909 | 日志中的 `* MAE` 与最佳 checkpoint |
-| 测试 MAE | 0.318826 | 866 条新测试记录重算 |
-| 测试 RMSE | 0.524193 | 866 条新测试记录重算 |
-| 测试 R² | 0.443920 | 866 条新测试记录重算 |
-
-该次运行的原始日志位于 `results/original/rerun-shc-max-log-20260914/`。由于命令使用 `--print-freq 10`，日志中的逐轮 training loss 和 validation loss 是最后一个打印 batch 的 running average；validation MAE 和测试 MAE 来自完整的 `* MAE`/`** MAE` 行。
-
-另有 10 个 CIF 的单任务代码冒烟测试，训练 6、验证 2、测试 2。该实验只用于验证流程，测试 MAE 为 3.813，不应作为模型性能结论。
+结果为独立单任务结果页，不和 MP 多任务指标混合。原始日志、逐轮指标、测试 CSV 和 checkpoint 元数据保存在 `results/mp_presentation_20260917/single_task_30e/`。大型 CIF 派生视图和晶体图缓存属于本地可再生成数据，不提交到 GitHub。
 
 ## 7. 多任务预测改进
 
@@ -252,15 +243,15 @@ Task 1   Task 2   Task 3
 
 当前实现是在同一共享表示之后，用一行输出神经元对应一个任务。它实现了参数共享，但还没有加入任务专属多层网络、任务权重学习或不确定性建模。
 
-三任务已保存结果的测试集指标：
+MP 三任务测试集指标：
 
 | 材料性质 | MAE | RMSE | R² | 有效测试数 |
 |---|---:|---:|---:|---:|
-| 形成能 `formation_energy_per_atom` | 0.109772 | 0.154312 | 0.980555 | 3635 |
-| 带隙 `band_gap` | 0.424296 | 0.697009 | 0.840928 | 3635 |
-| 费米能 `efermi` | 0.447355 | 0.670312 | 0.943981 | 3635 |
+| 形成能 `formation_energy_per_atom` | 0.104661 | 0.148992 | 0.981872 | 3,635 |
+| 带隙 `band_gap` | 0.430826 | 0.688462 | 0.844805 | 3,635 |
+| 费米能 `efermi` | 0.447305 | 0.673865 | 0.943385 | 3,635 |
 
-这三个任务平均值约为 0.327141。由于三个性质单位不同、难度不同，平均值只能作为总体参考，不能替代分任务指标。
+三个任务的简单平均 MAE 约为 0.327597。由于三个性质单位不同、难度不同，平均值只能作为总体参考，不能替代分任务指标。完整结果位于 `results/mp_presentation_20260917/multitask_30e/`。
 
 ## 8. 代码修改
 
@@ -292,39 +283,37 @@ Task 1   Task 2   Task 3
 - 对不包含该字段的旧模型默认使用 1；
 - 多任务预测结果按 7 列格式写入 CSV。
 
-## 9. 实验结果
+## 9. 实验结果与汇报文件
 
-结果目录：
+最新 MP 汇报结果目录：
 
 ```text
-results/
-├── original/
+results/mp_presentation_20260917/
+├── environment.txt
+├── single_task_30e/
+│   ├── train_mp_single_30e.log
+│   ├── single_metrics.csv
+│   ├── single_summary.json
 │   ├── test_results.csv
 │   ├── metrics.json
-│   ├── metrics.md
-│   └── reproduction-20260914/
-└── multitask/
+│   └── metrics.md
+└── multitask_30e/
+    ├── train_mp_multitask_30e.log
+    ├── multitask_metrics.csv
+    ├── multitask_summary.json
     ├── test_results.csv
     ├── metrics.json
-    ├── metrics.md
-    └── reproduction-20260914/
+    └── metrics.md
 ```
 
-`metrics.json` 记录了源 CSV 的 SHA-256，用于检查结果来源。`tools/summarize_results.py` 可以从 CSV 重新计算指标。
+`metrics.json` 记录源测试 CSV 的 SHA-256，`tools/summarize_results.py` 可以重新计算 MAE、RMSE 和 R²。训练曲线和预测散点图位于 `figures/mp_report/`。
 
-本次 30 轮单任务重跑的逐轮数据和真实曲线位于：
+最新组会材料：
 
-- `results/original/rerun-shc-max-log-20260914/`
-- `figures/training_loss.png`
-- `figures/training_mae.png`
+- `presentation/output/CGCNN_MP_GroupMeeting_20260917_rebuilt_v5_math_eq.pptx`
+- `presentation/output/CGCNN_MP_GroupMeeting_20260917_v5_speech.txt`
 
-多任务 `mt-demo` 是一次 9 个样本的流程测试：
-
-- 训练 5、验证 2、测试 2；
-- 最终测试平均 MAE 为 0.568；
-- 预测全部 9 个样本时，三任务平均 MAE 为 0.708。
-
-小样本训练只能证明代码可以运行，不能证明多任务模型优于单任务模型。
+单任务和多任务分别训练、分别保存、分别在 PPT 中展示。多任务结果按性质分项报告，不用简单平均 MAE 作为唯一结论。
 
 ## 10. 遇到的问题与解决方法
 

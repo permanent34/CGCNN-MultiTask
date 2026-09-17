@@ -127,3 +127,12 @@ data/shc-max-log/
 
 # Keep experiment logs that are explicitly saved under results/.
 !results/**/*.log
+
+# Local derived MP single-task view and graph cache. These can be regenerated
+# from data/mt-large, so they are intentionally not committed.
+data/mp-single-formation/
+data/**/.cgcnn_cache/
+
+# Private presentation build output and local builder.
+presentation/.build_mp_20260917/
+presentation/build_mp_deck.mjs
